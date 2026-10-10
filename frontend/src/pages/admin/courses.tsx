@@ -1,7 +1,6 @@
 import { CourseFormDialog } from "@/components/courses/course-form-dialog";
 import { CourseTable } from "@/components/courses/course-table";
 import { useEnrollmentStore } from "@/lib/enrollment-store";
-import { ConfirmDeleteButton } from "@/components/confirm-button";
 
 export default function AdminCoursesPage() {
   const courseCount = useEnrollmentStore((s) => s.courses.length);
